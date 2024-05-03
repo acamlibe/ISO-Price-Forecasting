@@ -9,10 +9,10 @@ from datetime import datetime, timedelta
 from dateutil import parser
 from requests.adapters import HTTPAdapter, Retry
 
-data_dir_exists = os.path.exists('Data')
+data_dir_exists = os.path.exists('Data/Prices')
 
 if not data_dir_exists:
-    os.mkdir('Data')
+    os.mkdir('Data/Prices')
 
 config = configparser.ConfigParser()
 config.sections()
