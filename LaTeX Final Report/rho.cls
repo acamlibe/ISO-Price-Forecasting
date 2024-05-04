@@ -348,7 +348,7 @@
         \vskip10pt
         {\RaggedRight\@author\par}
         \vskip8pt
-        \textbf{GitHub:} \url {https://github.com/acamlibe/ISO-Price-Forecasting}
+        \textbf{GitHub:} \url {https://github.com/acamlibe/ISO-Price-Forecasting-CNN-LSTM-}
 
         {\RaggedRight\ifx\@dates\undefined\else\datesfont\@dates\fi\par}
     \vskip20pt
